@@ -2,6 +2,21 @@
 
 Rhythm is just a *click* away. The future of [osu!](https://osu.ppy.sh) and the beginning of an open era! Commonly known by the codename "osu!lazer". Pew pew.
 
+# Updates
+
+This fork (which I will try to keep up to date with master) has added the following so far:
+- Triple Time Mod 
+
+Pretty self-explanatory - works exactly like Double Time but the clock is multiplied by 2 instead of 1.5 in DT.
+
+- Easy Rock Mod
+
+Like the name suggests, Easy Rock is a combination of HR and EZ. The circle size and overall difficulty are the same as the song would be with EZ, while the AR and HP drain are the same as the song would be with HR. The objects are also flipped on the X-Axis rather than the Y-Axis.
+
+# Building this fork
+
+I will not be uploading precompiled releases of this fork, so you will need to follow the instructions in the "Building and running" section of this README. (Also pay attention to the Requirements section as well).
+
 # Status
 
 This project is still heavily under development, but is in a state where users are encouraged to try it out and keep it installed alongside the stable osu! client. It will continue to evolve over the coming months and hopefully bring some new unique features to the table.
@@ -19,7 +34,7 @@ If you are not interested in developing the game, please head over to the [relea
 
 Clone the repository including submodules
 
-`git clone --recurse-submodules https://github.com/ppy/osu`
+`git clone --recurse-submodules https://github.com/smitdalt/osu`
 
 Build and run
 
