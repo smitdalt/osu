@@ -122,6 +122,7 @@ namespace osu.Game.Rulesets.Osu
                     {
                         new OsuModTripleTime(),
                         new OsuModEasyRock(),
+                        new OsuModRotate(),
                     };
                 default:
                     return new Mod[] { };
