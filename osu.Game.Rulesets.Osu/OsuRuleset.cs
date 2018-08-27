@@ -117,6 +117,12 @@ namespace osu.Game.Rulesets.Osu
                         new OsuModRelax(),
                         new OsuModAutopilot(),
                     };
+                case ModType.Fun:
+                    return new Mod[]
+                    {
+                        new OsuModTripleTime(),
+                        new OsuModEasyRock(),
+                    };
                 default:
                     return new Mod[] { };
             }
