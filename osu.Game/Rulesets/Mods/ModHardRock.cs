@@ -14,7 +14,7 @@ namespace osu.Game.Rulesets.Mods
         public override FontAwesome Icon => FontAwesome.fa_osu_mod_hardrock;
         public override ModType Type => ModType.DifficultyIncrease;
         public override string Description => "Everything just got a bit harder...";
-        public override Type[] IncompatibleMods => new[] { typeof(ModEasy) };
+        public override Type[] IncompatibleMods => new[] { typeof(ModEasy), typeof(ModEasyRock) };
 
         public void ApplyToDifficulty(BeatmapDifficulty difficulty)
         {
